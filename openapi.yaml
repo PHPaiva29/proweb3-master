@@ -1,0 +1,269 @@
+openapi: 3.0.3
+info:
+  title: proweb3 API
+  description: API para site de esportes coletivos
+  version: 1.0.0
+tags:
+  - name: user
+    description: Funcionalidades relacionadas ao usuario
+  - name: CadastroEsportes
+    description: Cadastro de esportes
+  - name: CadastroLocais
+    description: Cadastro de locais de jogos
+paths:
+  /user:
+    put:
+      tags:
+        - user
+      summary: Atualizar informacoes de usuario
+      description: Atualizar informaçoes de um usuario
+      operationId: updateUser
+      requestBody:
+        description: Atualizar informaçoes
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/user'
+      responses:
+        '200':
+          description: A operação foi um sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/user'          
+        '400':
+          description: ID invalido
+        '404':
+          description: Usuario não existe
+    post:
+      tags:
+        - user
+      summary: Registra um usuario
+      description: Registra um usuario novo
+      operationId: addUser
+      requestBody:
+        description: Cria um novo usuario para o site
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/user'
+      responses:
+        '200':
+          description: A operação foi um sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/user'          
+        '405':
+          description: Dados invalidos
+  /user/auth
+    post:
+      tags:
+        - user
+      summary: Authentificação de usuario
+      description: Authentificação de usuario para log in
+      operationId: LoginUser
+      requestBody:
+        description: Authentifica usuario para o login
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/user/auth'
+      responses:
+        '200':
+          description: A operação foi um sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/user/auth' 
+        '405':
+          description: Dados invalidos
+    get:
+      tags:
+        - user
+      summary: Log out
+      description: Log out sessao atual
+      operationId: LogoutUser
+      parameters:
+        - in: query
+          description: 
+          schema:
+            type: string
+            default: available
+      responses:
+        '200':
+          description: A operação foi um sucesso
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/user/auth'
+        '404':
+          description: Usuario não esta logado
+  /CadastroEsportes
+    put:
+      tags:
+        - CadastroEsportes
+      summary: Atualizar informacoes de um esporte
+      description: Atualizar informaçoes de um esporte
+      operationId: updateCadastroEsportes
+      requestBody:
+        description: Atualizar informaçoes
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CadastroEsportes'
+      responses:
+        '200':
+          description: A operação foi um sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/CadastroEsportes'          
+        '400':
+          description: ID invalido
+        '404':
+          description: Cadastro de Esportes não existe
+    post:
+      tags:
+        - CadastroEsportes
+      summary: Cadastra um esporte
+      description: Registra um esporte para sistema
+      operationId: addCadastroEsportes
+      requestBody:
+        description: registra um novo esporte para o site
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CadastroEsportes'
+      responses:
+        '200':
+          description: A operação foi um sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/CadastroEsportes'          
+        '405':
+          description: Dados invalidos
+    get:
+      summary: Busca esporte
+      tags:
+        - CadastroEsportes
+      description: O usuario escreve o nome do esporte que deseja saber se existe
+      parameters: 
+        - in: path
+          name: nome
+          description: nome do esporte
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Retorna o nome do esporte e sua descrição
+          content:
+            application/json:
+              schema:
+                  $ref: '#/components/schemas/CadastroEsportes'
+        '404':
+          description: Esporte não encontrado
+  /CadastroLocais
+    put:
+      tags:
+        - CadastroLocais
+      summary: Atualizar informacoes de um local
+      description: Atualizar informaçoes de um local
+      operationId: updateCadastroLocais
+      requestBody:
+        description: Atualizar informaçoes
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CadastroLocais'
+      responses:
+        '200':
+          description: A operação foi um sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/CadastroLocais'          
+        '400':
+          description: ID invalido
+        '404':
+          description: Cadastro de local não existe
+    post:
+      tags:
+        - CadastroLocais
+      summary: Cadastra um local
+      description: Registra um local
+      operationId: addCadastroLocais
+      requestBody:
+        description: registra um novo local
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CadastroLocais'
+      responses:
+        '200':
+          description: A operação foi um sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schema/CadastroLocais'          
+        '405':
+          description: Dados invalidos
+    get:
+      summary: Busca locais
+      tags:
+        - CadastroLocais
+      description: O usuario escreve o nome de um local para saber se ele esta cadastrado
+      parameters: 
+        - in: path
+          name: nome
+          description: nome/titulo local
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Retorna as informacoes como endereço
+          content:
+            application/json:
+              schema:
+                  $ref: '#/components/schemas/CadastroLocais'
+        '404':
+          description: Local não encontrado
+          
+components:
+  schemas:
+    user:
+      type: object
+      properties:
+        nome: 
+          type: string
+          example: Fabio
+        email:
+          type: string
+          example: user@email.com
+        senha:
+          type: string
+          example: 123abc
+    CadastroEsportes:
+      properties:
+        nome:
+          type: string
+          example: Volei
+        descricao:
+          type: string
+          example: O voleibol ou vôlei é um esporte praticado entre duas equipes numa quadra retangular onde cada equipe é composta por 6 jogadores
+    CadastroLocais:
+      properties:
+        nome:
+          type: string
+          example: santa cruz
+        endereco:
+          type: string
+          example: rua tal numero 12
+        descricao:
+          type: string
+          example: só pode ser usada das 16h as 22h
