@@ -3,108 +3,126 @@
     "name": "CadastroEsportes",
     "path": "/CadastroEsportes",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroEsportes.vue",
-    "chunkName": "pages/CadastroEsportes"
+    "chunkName": "pages/CadastroEsportes",
+    "_name": "_08b2b3ca"
   },
   {
     "name": "CadastroEstatisticas",
     "path": "/CadastroEstatisticas",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroEstatisticas.vue",
-    "chunkName": "pages/CadastroEstatisticas"
+    "chunkName": "pages/CadastroEstatisticas",
+    "_name": "_3deec62a"
   },
   {
     "name": "CadastroEvento",
     "path": "/CadastroEvento",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroEvento.vue",
-    "chunkName": "pages/CadastroEvento"
+    "chunkName": "pages/CadastroEvento",
+    "_name": "_6419c1fc"
   },
   {
     "name": "CadastroImprensa",
     "path": "/CadastroImprensa",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroImprensa.vue",
-    "chunkName": "pages/CadastroImprensa"
+    "chunkName": "pages/CadastroImprensa",
+    "_name": "_0c0826ec"
   },
   {
     "name": "CadastroJogador",
     "path": "/CadastroJogador",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroJogador.vue",
-    "chunkName": "pages/CadastroJogador"
+    "chunkName": "pages/CadastroJogador",
+    "_name": "_7b8cd92a"
   },
   {
     "name": "CadastroLocais",
     "path": "/CadastroLocais",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroLocais.vue",
-    "chunkName": "pages/CadastroLocais"
+    "chunkName": "pages/CadastroLocais",
+    "_name": "_47d43e10"
   },
   {
     "name": "CadastroPartida",
     "path": "/CadastroPartida",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroPartida.vue",
-    "chunkName": "pages/CadastroPartida"
+    "chunkName": "pages/CadastroPartida",
+    "_name": "_25fa1094"
   },
   {
     "name": "CadastroPatrocinio",
     "path": "/CadastroPatrocinio",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroPatrocinio.vue",
-    "chunkName": "pages/CadastroPatrocinio"
+    "chunkName": "pages/CadastroPatrocinio",
+    "_name": "_8d38168a"
   },
   {
     "name": "CadastroResultado",
     "path": "/CadastroResultado",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroResultado.vue",
-    "chunkName": "pages/CadastroResultado"
+    "chunkName": "pages/CadastroResultado",
+    "_name": "_58bc4edc"
   },
   {
     "name": "CadastroTecnico",
     "path": "/CadastroTecnico",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroTecnico.vue",
-    "chunkName": "pages/CadastroTecnico"
+    "chunkName": "pages/CadastroTecnico",
+    "_name": "_1cfb2d48"
   },
   {
     "name": "CadastroTime",
     "path": "/CadastroTime",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroTime.vue",
-    "chunkName": "pages/CadastroTime"
+    "chunkName": "pages/CadastroTime",
+    "_name": "_3f8965fa"
   },
   {
     "name": "Calendario",
     "path": "/Calendario",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\Calendario.vue",
-    "chunkName": "pages/Calendario"
+    "chunkName": "pages/Calendario",
+    "_name": "_6e22a838"
   },
   {
     "name": "Home",
     "path": "/Home",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\Home.vue",
-    "chunkName": "pages/Home"
+    "chunkName": "pages/Home",
+    "_name": "_7be4b3b3"
   },
   {
     "name": "ListaEventos",
     "path": "/ListaEventos",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\ListaEventos.vue",
-    "chunkName": "pages/ListaEventos"
+    "chunkName": "pages/ListaEventos",
+    "_name": "_2da23c62"
   },
   {
     "name": "ListaPartidas",
     "path": "/ListaPartidas",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\ListaPartidas.vue",
-    "chunkName": "pages/ListaPartidas"
+    "chunkName": "pages/ListaPartidas",
+    "_name": "_64450e7f"
   },
   {
     "name": "Login",
     "path": "/Login",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\Login.vue",
-    "chunkName": "pages/Login"
+    "chunkName": "pages/Login",
+    "_name": "_1e96a945"
   },
   {
     "name": "Registrar",
     "path": "/Registrar",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\Registrar.vue",
-    "chunkName": "pages/Registrar"
+    "chunkName": "pages/Registrar",
+    "_name": "_51f6aa6e"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_45063364"
   }
 ]
