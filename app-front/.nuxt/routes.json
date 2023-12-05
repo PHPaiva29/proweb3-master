@@ -1,0 +1,110 @@
+[
+  {
+    "name": "CadastroEsportes",
+    "path": "/CadastroEsportes",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroEsportes.vue",
+    "chunkName": "pages/CadastroEsportes"
+  },
+  {
+    "name": "CadastroEstatisticas",
+    "path": "/CadastroEstatisticas",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroEstatisticas.vue",
+    "chunkName": "pages/CadastroEstatisticas"
+  },
+  {
+    "name": "CadastroEvento",
+    "path": "/CadastroEvento",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroEvento.vue",
+    "chunkName": "pages/CadastroEvento"
+  },
+  {
+    "name": "CadastroImprensa",
+    "path": "/CadastroImprensa",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroImprensa.vue",
+    "chunkName": "pages/CadastroImprensa"
+  },
+  {
+    "name": "CadastroJogador",
+    "path": "/CadastroJogador",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroJogador.vue",
+    "chunkName": "pages/CadastroJogador"
+  },
+  {
+    "name": "CadastroLocais",
+    "path": "/CadastroLocais",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroLocais.vue",
+    "chunkName": "pages/CadastroLocais"
+  },
+  {
+    "name": "CadastroPartida",
+    "path": "/CadastroPartida",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroPartida.vue",
+    "chunkName": "pages/CadastroPartida"
+  },
+  {
+    "name": "CadastroPatrocinio",
+    "path": "/CadastroPatrocinio",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroPatrocinio.vue",
+    "chunkName": "pages/CadastroPatrocinio"
+  },
+  {
+    "name": "CadastroResultado",
+    "path": "/CadastroResultado",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroResultado.vue",
+    "chunkName": "pages/CadastroResultado"
+  },
+  {
+    "name": "CadastroTecnico",
+    "path": "/CadastroTecnico",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroTecnico.vue",
+    "chunkName": "pages/CadastroTecnico"
+  },
+  {
+    "name": "CadastroTime",
+    "path": "/CadastroTime",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\CadastroTime.vue",
+    "chunkName": "pages/CadastroTime"
+  },
+  {
+    "name": "Calendario",
+    "path": "/Calendario",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\Calendario.vue",
+    "chunkName": "pages/Calendario"
+  },
+  {
+    "name": "Home",
+    "path": "/Home",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\Home.vue",
+    "chunkName": "pages/Home"
+  },
+  {
+    "name": "ListaEventos",
+    "path": "/ListaEventos",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\ListaEventos.vue",
+    "chunkName": "pages/ListaEventos"
+  },
+  {
+    "name": "ListaPartidas",
+    "path": "/ListaPartidas",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\ListaPartidas.vue",
+    "chunkName": "pages/ListaPartidas"
+  },
+  {
+    "name": "Login",
+    "path": "/Login",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\Login.vue",
+    "chunkName": "pages/Login"
+  },
+  {
+    "name": "Registrar",
+    "path": "/Registrar",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\Registrar.vue",
+    "chunkName": "pages/Registrar"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Pedro\\\\OneDrive\\\\Área de Trabalho\\\\proweb3-master\\\\app-front\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
