@@ -11,7 +11,7 @@
                         <b-form-input v-model="novoPatrocinio.descricao" id="desc-input"></b-form-input>
                     </b-form-group>
                     <b-form-group label="Valor:" label-for="valor-input" label-cols-sm="2" label-align-sm="left">
-                        <b-form-input v-model="novoPatrocinio.valor" id="valor-input"></b-form-input>
+                        <b-form-input v-mask="'XXX.XXX.XXX,XX'" v-model="novoPatrocinio.valor" id="valor-input"></b-form-input>
                     </b-form-group>
                 <b-button type="submit">Cadastrar Patrocínio</b-button>
             </b-form>
@@ -25,7 +25,7 @@ export default {
     name: "CadastroPatrocinio",
     data: function () {
         return {
-            novoEsporte: {
+            novoPatrocinio: {
                 nome: "",
                 descricao: "",
                 valor:""
@@ -53,33 +53,6 @@ export default {
             },
         }
     }
-    
-/*
-async asyncData({ $axios }) {
-    let items, totalRows;
-    try {
-    const response = await $axios.$get('patrimonio');
-    items = response;
-    totalRows = items.length;
-} catch (ex) {
-    console.log(ex);
-}
-return { items, totalRows }
-},
-*/
-//Exemplo do professor // Não entendi essa parte :(
-    // async asyncData({ $axios }) {
-//     let items, totalRows;
-//     try {
-    //         // não era para ser uma url ?
-//         const response = await $axios.$get('esporte');
-//         items = response;
-//         totalRows = items.length;
-//     } catch (ex) {
-    // console.log(ex);
-    //     }
-    //     return { items, totalRows }
-    // },
 </script>
 
 <style>

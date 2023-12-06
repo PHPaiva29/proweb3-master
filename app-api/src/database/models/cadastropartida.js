@@ -25,7 +25,8 @@ module.exports = (sequelize, DataTypes) => {
     timeA: DataTypes.STRING,
     timeB: DataTypes.STRING,
     tecnicoA: DataTypes.STRING,
-    tecnicoB: DataTypes.STRING
+    tecnicoB: DataTypes.STRING,
+    imprensa: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'CadastroPartida',
